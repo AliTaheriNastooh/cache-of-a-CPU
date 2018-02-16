@@ -1,6 +1,7 @@
 # cache-of-a-CPU
 simulate cache system of a CPU
 
+I use xilinx IDE
 
 we should supposewe have a CPU and a memory for it that our instructions and data are there. As mentioned in course, because of lack of memory speed in comparison, we will need a cache!our system must have this specification:
   - Suppose 4KB memory for RAM
