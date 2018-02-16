@@ -1,0 +1,64 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_isim_beh.exe" -prj "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_beh.prj" "work.test1" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/memory.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/cache.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/WriteEnabledLatch.v" into library work
+WARNING:HDLCompiler:568 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/WriteEnabledLatch.v" Line 13: Constant value is truncated to fit in <3> bits.
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/TwoBitShifter_32bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/TowBitShifter_28bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/SignExtender16to32.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/PcOr.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/PcJumpConcatenator.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/Mux4_1_32bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/Mux3_1_32bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/Mux2_1_4bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/Mux2_1_32bit.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/DataLatch.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" into library work
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 129: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 146: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 163: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 180: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 199: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 216: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 233: Case statement with no case item violates IEEE 1800 syntax
+WARNING:HDLCompiler:1419 - "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ControlUnit.v" Line 249: Case statement with no case item violates IEEE 1800 syntax
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/BranchAnd.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/ALU.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/../MIPS CPU/9232210/Main.v" into library work
+Analyzing Verilog file "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1.v" into library work
+Analyzing Verilog file "D:/asd/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ControlUnit
+Compiling module ALU
+Compiling module BranchAnd
+Compiling module PcOr
+Compiling module DataLatch
+Compiling module memory
+Compiling module cache
+Compiling module InstructionMemory
+Compiling module Mux2_1_32bit
+Compiling module Mux2_1_4bit
+Compiling module Mux3_1_32bit
+Compiling module Mux4_1_32bit
+Compiling module PcJumpConcatenator
+Compiling module RegisterFile
+Compiling module SignExtender16to32
+Compiling module TowBitShifter_28bit
+Compiling module TwoBitShifter_32bit
+Compiling module WriteEnabledLatch
+Compiling module Main
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_isim_beh.exe
+Fuse Memory Usage: 28760 KB
+Fuse CPU Usage: 733 ms

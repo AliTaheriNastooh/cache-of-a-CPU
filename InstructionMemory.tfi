@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+InstructionMemory instance_name (
+    .address(address), 
+    .writeBack(writeBack), 
+    .memWrite(memWrite), 
+    .clk(clk), 
+    .rd(rd)
+    );
+
+

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/test1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/pcToMux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcToMux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcToMux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/IRwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRwrite</obj_property>
+      <obj_property name="ObjectShortName">IRwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/PCwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCwrite</obj_property>
+      <obj_property name="ObjectShortName">PCwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/pcSrcToPc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcSrcToPc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSrcToPc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/pcToMux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcToMux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcToMux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/adrress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adrress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_memory/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_memory/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[1023:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[1023:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_memory/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_memory/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/saveAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">saveAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">saveAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/getoffset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">getoffset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">getoffset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/cachen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cachen</obj_property>
+      <obj_property name="ObjectShortName">cachen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/LRU" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LRU[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LRU[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">set3[1:0,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set3[1:0,156:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">set2[1:0,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set2[1:0,156:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">set0[1:0,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set0[1:0,156:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">set1[1:0,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set1[1:0,156:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/addressout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addressout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addressout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/dataofmemory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataofmemory[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataofmemory[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/enable1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable1</obj_property>
+      <obj_property name="ObjectShortName">enable1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/connect_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">connect_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">connect_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_memory/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[127:0]</obj_property>
+   </wvobject>
+</wave_config>

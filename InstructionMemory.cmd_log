@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj compute_arcitucture_project -o "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/InstructionMemory.tfi" -lib work "C:/Users/ali taheri/Desktop/verilog/MIPS CPU/9232210//InstructionMemory.v" -module InstructionMemory -template D:/asd/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

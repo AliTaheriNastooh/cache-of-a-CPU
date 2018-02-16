@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+cache instance_name (
+    .address(address), 
+    .dataofmemory(dataofmemory), 
+    .dataout(dataout), 
+    .addressout(addressout)
+    );
+
+

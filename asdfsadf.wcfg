@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/test1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/alu/srcA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">srcA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/alu/srcB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">srcB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/alu/res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/adrress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adrress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/cachen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cachen</obj_property>
+      <obj_property name="ObjectShortName">cachen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/saveAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">saveAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">saveAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set0[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set0[1,156:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1/uut/instMem/my_cache/set0[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0,156:0]</obj_property>
+      <obj_property name="ObjectShortName">set0[0,156:0]</obj_property>
+   </wvobject>
+</wave_config>

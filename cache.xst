@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/xst"
+elaborate
+-ifn cache.prj
+-ifmt mixed

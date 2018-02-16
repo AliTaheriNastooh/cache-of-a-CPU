@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_isim_beh.exe" -prj "C:/Users/ali taheri/Desktop/verilog/compute_arcitucture_project/test1_beh.prj" "work.test1" "work.glbl" 
