@@ -1,2 +1,2 @@
-CPU_MIPS/isim/* linguist-vendored
-CPU_MIPS/*.html linguist-vendored
+isim/* linguist-vendored
+*.html linguist-vendored
